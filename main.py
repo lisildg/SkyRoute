@@ -6,6 +6,8 @@ Autores: [Juan Martin Rosello dal molin
          Pablo Francisco Elías 
          Florencia Belén Dussman 
          Lisi Daniela Gonzalez]
+         
+Cómo ejecutar: python main.py
 """
 from datetime import datetime
 clientes = []
@@ -46,7 +48,8 @@ while True:
             elif subop == "2":
                 razon = input("Razón social: ")
                 cuit = input("CUIT: ")
-                correo = input("Correo: ")
+                correo = input("Correo (usá '[arroba]' en lugar de @ si tu teclado no lo permite): ")
+                correo = correo.replace("[arroba]", "@")
                 clientes.append({"id": id_cliente, "razon": razon, "cuit": cuit, "correo": correo})
                 print(f"Cliente agregado con ID {id_cliente}")
                 id_cliente += 1
@@ -56,7 +59,8 @@ while True:
                     if c["id"] == cid:
                         c["razon"] = input("Nueva razón social: ")
                         c["cuit"] = input("Nuevo CUIT: ")
-                        c["correo"] = input("Nuevo correo: ")
+                        correo = input("Nuevo correo (usá '[arroba]' en lugar de @ si tu teclado no lo permite): ")
+                        c["correo"] = correo.replace("[arroba]", "@")
                         print("Cliente modificado.")
             elif subop == "4":
                 cid = int(input("ID del cliente a eliminar: "))
