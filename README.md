@@ -1,4 +1,5 @@
 # SkyRoute - Sistema de Gestión de Pasajes Aéreos ✈️
+# Proyecto académico - TSCDeIA 2025
 
 Este proyecto es un **prototipo académico** de una aplicación de consola desarrollado como parte de la Evidencia 2 del módulo **Programador** en la carrera TSCDeIA 2025. Permite simular la gestión básica de ventas de pasajes para una agencia ficticia.
 
@@ -41,12 +42,12 @@ python main.py
 ---
 
 ## 👩‍💻 Autores
+ 
+- Juan Martin Rosello dal molin 
+- Erica Melisa Paredes  
+-  Pablo Francisco Elías 
+- Florencia Belén Dussman 
+- Lisi Daniela Gonzalez
+    
 
-- [ Juan Martin Rosello dal molin
-    Erica Melisa Paredes 
-    Pablo Francisco Elías 
-    Florencia Belén Dussman 
-    Lisi Daniela Gonzalez]
-
-- Proyecto académico - TSCDeIA 2025
 
