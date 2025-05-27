@@ -52,7 +52,7 @@ python main.py
 ## 🗺️ Diagrama Entidad-Relación
 
 A continuación se muestra el modelo ER del sistema de gestión de pasajes:
-![alt text](image-1.png)
+![alt text](diagrama.jpg)
     
 ## Ética y Ejercicio Profesional
 
